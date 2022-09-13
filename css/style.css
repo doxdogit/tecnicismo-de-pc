@@ -1,3 +1,9 @@
+body {
+    font-family: sans-serif;
+}
+
+
+
 table, th, td {
     border: 1px solid black;
     padding: 8px;
@@ -6,15 +12,33 @@ table, th, td {
 
 .encabezado {
     width: 100%;
+    border-collapse: collapse;
+    vertical-align: middle;
 }
 
 .parte-superior-derecha{
-    width: 25%;
+    width: 10%;
     text-align: center;
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2%;
 }
 
 .parte-superior-izquierda{
     width: 70%;
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2%;
 
 }
 
+tbody tr:nth-child(odd) {
+    background-color:#fff;
+}
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
