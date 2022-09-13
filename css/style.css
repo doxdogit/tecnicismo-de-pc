@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+
+.encabezado {
+    width: 100%;
+}
+
+.parte-superior-derecha{
+    width: 30%;
+}
+
+.parte-superior-izquierda{
+    width: 70%;
+}
