@@ -1,5 +1,6 @@
 table, th, td {
     border: 1px solid black;
+    padding: 8px;
 }
 
 
@@ -8,9 +9,12 @@ table, th, td {
 }
 
 .parte-superior-derecha{
-    width: 30%;
+    width: 25%;
+    text-align: center;
 }
 
 .parte-superior-izquierda{
     width: 70%;
+
 }
+
